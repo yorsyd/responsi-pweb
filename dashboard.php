@@ -70,7 +70,7 @@
                 <p>Toko <b>IniElektronik</b> menyediakan berbagai macam barang elektronik kebutuhan Anda</p>
             </div>
             <div class="card">
-                <h3>Follow Me</h3>
+                <h3>Media Sosial</h3>
                 <a href="https://github.com/yorsyd">GitHub</a>
                 <a href="https://instagram.com/yorsyd">Instagram</a>
             </div>
