@@ -27,4 +27,11 @@
     'harga' => 69999,
     'jumlah' => '5',
   ),
+  4 => 
+  array (
+    'nama' => 'Antena Kabel',
+    'id' => 8,
+    'harga' => 479999,
+    'jumlah' => '2',
+  ),
 );
