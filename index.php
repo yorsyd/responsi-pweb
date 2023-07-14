@@ -20,15 +20,12 @@
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
-                <h2>Data Barang</h2>
+                <h2>Daftar Barang</h2>
 
                 <table style="width:100%">
 
                     <?php
                     include 'db.php';
-                    $totalStok = 0;
-                    $totalHarga = 0;
-                    $totalOfTotal = 0;
 
                     function lengthArray($arr) {
                         $index = 0;
@@ -43,30 +40,18 @@
                     echo "<th>" . "Nama" . "</th>";
                     echo "<th>" . "Harga" . "</th>";
                     echo "<th style='width:6%'>" . "Stok" . "</th>";
-                    echo "<th>" . "Harga x Stok" . "</th>";
                     echo "</tr>";
 
                     for ($i = 0; $i < lengthArray($gudang); $i++) {
-                        $total = $gudang[$i]['harga'] * $gudang[$i]['stok'];
-                        $totalStok = $totalStok + $gudang[$i]['stok'];
-                        $totalHarga = $totalHarga + $gudang[$i]['harga'];
-                        $totalOfTotal = $totalOfTotal + $total;
 
                         echo "<tr>";
                         echo "<td>" . $gudang[$i]['id'] . "</td>";
                         echo "<td>" . $gudang[$i]['nama'] . "</td>";
                         echo "<td>" . $gudang[$i]['harga'] . "</td>";
                         echo "<td>" . $gudang[$i]['stok'] . "</td>";
-                        echo "<td>" . $total . "</td>";
                         echo "</tr>";
                     }
                     ?>
-                    <tr>
-                        <td colspan="2"><b style="color: #000">Item: <?php echo lengthArray($gudang) ?></b></td>
-                        <td><b style="color: #000"><?php echo $totalHarga ?></b></td>
-                        <td><b style="color: #000"><?php echo $totalStok ?></b></td>
-                        <td><b style="color: #000"><?php echo $totalOfTotal ?></b></td>
-                    </tr>
                 </table>
             </div>
         </div>

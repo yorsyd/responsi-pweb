@@ -3,7 +3,7 @@
   array (
     'id' => 4,
     'nama' => 'Iphone 14',
-    'harga' => 10000,
+    'harga' => 14000,
     'stok' => 5,
   ),
   1 => 
@@ -29,7 +29,7 @@
   ),
   4 => 
   array (
-    'nama' => 'Tuna kaleng',
+    'nama' => 'Colokan Emas',
     'id' => 5,
     'harga' => 3200,
     'stok' => 20,
@@ -43,28 +43,28 @@
   ),
   6 => 
   array (
-    'nama' => 'Container',
+    'nama' => 'Headphone',
     'id' => 7,
     'harga' => 12000,
     'stok' => 50,
   ),
   7 => 
   array (
-    'nama' => 'Gandum',
+    'nama' => 'Lampu',
     'id' => 8,
     'harga' => 6000,
     'stok' => 87,
   ),
   8 => 
   array (
-    'nama' => 'Sepatu Kulit',
+    'nama' => 'Kabel',
     'id' => 9,
     'harga' => 50000,
     'stok' => 5,
   ),
   9 => 
   array (
-    'nama' => 'Mini Koper',
+    'nama' => 'Earphone',
     'id' => 10,
     'harga' => 1200,
     'stok' => 70,
