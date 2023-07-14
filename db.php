@@ -1,72 +1,50 @@
 <?php $gudang = array (
   0 => 
   array (
-    'id' => 4,
-    'nama' => 'Iphone 14',
-    'harga' => 14000,
-    'stok' => 5,
+    'id' => 1,
+    'nama' => 'Kipas Angin',
+    'harga' => 78999,
   ),
   1 => 
   array (
-    'id' => 3,
-    'nama' => 'Lenovo Thinkpad',
-    'harga' => 20000,
-    'stok' => 3,
+    'id' => 2,
+    'nama' => 'AC Badai',
+    'harga' => 1299999,
   ),
   2 => 
   array (
-    'id' => 2,
-    'nama' => 'Vacum Cleaner',
-    'harga' => 15000,
-    'stok' => 8,
+    'id' => 3,
+    'nama' => 'Kabel Nyetrum',
+    'harga' => 5999,
   ),
   3 => 
   array (
-    'id' => 1,
-    'nama' => 'Kipas Angin',
-    'harga' => 12000,
-    'stok' => 12,
+    'id' => 4,
+    'nama' => 'Colokan Super',
+    'harga' => 8999,
   ),
   4 => 
   array (
-    'nama' => 'Colokan Emas',
+    'nama' => 'Saklar Cetek',
     'id' => 5,
-    'harga' => 3200,
-    'stok' => 20,
+    'harga' => 9999,
   ),
   5 => 
   array (
-    'nama' => 'Monitor LG 32inch',
+    'nama' => 'Setrika Dingin',
     'id' => 6,
-    'harga' => 52000,
-    'stok' => 32,
+    'harga' => 69999,
   ),
   6 => 
   array (
-    'nama' => 'Headphone',
+    'nama' => 'Lampu Redup',
     'id' => 7,
-    'harga' => 12000,
-    'stok' => 50,
+    'harga' => 24999,
   ),
   7 => 
   array (
-    'nama' => 'Lampu',
+    'nama' => 'Antena Kabel',
     'id' => 8,
-    'harga' => 6000,
-    'stok' => 87,
-  ),
-  8 => 
-  array (
-    'nama' => 'Kabel',
-    'id' => 9,
-    'harga' => 50000,
-    'stok' => 5,
-  ),
-  9 => 
-  array (
-    'nama' => 'Earphone',
-    'id' => 10,
-    'harga' => 1200,
-    'stok' => 70,
+    'harga' => 479999,
   ),
 );

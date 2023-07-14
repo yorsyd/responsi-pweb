@@ -1,7 +1,7 @@
 :root {
-  --primary: #5664e9;
+  --primary: #35A29F;
   --second: #171717;
-  --bg: #e0e0e0;
+  --bg: #dedede;
 }
 
 * {
@@ -24,7 +24,6 @@ body {
 
 .header h1 {
   text-transform: uppercase;
-  color: #5664e9;
   color: var(--primary);
   font-size: 50px;
 }
@@ -42,19 +41,17 @@ body {
 
 /* Style the topnav links */
 .topnav a {
-  text-transform: uppercase;
+  text-transform: capitalize;
   float: left;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: white;
-  color: var(--primary);
+  color: var(--second);
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -149,7 +146,7 @@ img{
 }
 
 th {
-  background-color: #5664e9;
+  background-color: var(--primary);
   color: white;
 }
 

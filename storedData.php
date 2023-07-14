@@ -1,19 +1,26 @@
 <?php
 include 'db.php';
+include 'beli.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $input_name = $_POST["name-product"];
-    $input_id = intval($_POST["id-product"]);
-    $input_price = intval($_POST["price-product"]);
-    $input_stock = intval($_POST["stock-product"]);
+    $id = intval($_POST["id-product"]);
+    $jumlah = ($_POST["stock-product"]);
+    for ($i = 0; $i < sizeof($gudang); $i++){
+        if($id == $gudang[$i]['id']){
+            $input_name = $gudang[$i]['nama'];
+            $input_id = $gudang[$i]['id'];
+            $input_harga = $gudang[$i]['harga'];
+            $input_jumlah = $jumlah;
+        }   
+    }
 
-    $i = count($gudang);
+    $i = count($beli);
     
     $addProduct = array(
-        $gudang[$i]['nama'] = $input_name,
-        $gudang[$i]['id'] = $input_id,
-        $gudang[$i]['harga'] = $input_price,
-        $gudang[$i]['stok'] = $input_stock
+        $beli[$i]['nama'] = $input_name,
+        $beli[$i]['id'] = $input_id,
+        $beli[$i]['harga'] = $input_harga,
+        $beli[$i]['jumlah'] = $input_jumlah
     );
 
     // Sebelum
@@ -21,8 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // print_r($gudang);
     // echo "</pre>";
 
-    header("Location: input.php");
+    header("Location: index.php");
 
-    file_put_contents('db.php', '<?php $gudang = ' . var_export($gudang, true) . ';');
+    file_put_contents('beli.php', '<?php $beli = ' . var_export($beli, true) . ';');
 }
 ?>
