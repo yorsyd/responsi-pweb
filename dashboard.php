@@ -30,15 +30,7 @@
                 <table style="width:100%">
 
                     <?php
-                    include 'beli.php';
-
-                    function lengthArray($arr) {
-                        $index = 0;
-                        while(isset($arr[$index])) {
-                            $index = $index + 1;
-                        }
-                        return $index;
-                    }
+                    $fp = fopen("db.txt", "r");
 
                     echo "<tr>";
                     echo "<th style='width:4%'>" . "ID" . "</th>";
@@ -48,14 +40,15 @@
                     echo "</tr>";
 
                     $item = 0;
-                    for ($i = 0; $i < lengthArray($beli); $i++) {
+                    while($isi = fgets($fp, 1000)) {
                         $item++;
+                        $cetak = explode("|", $isi);
 
                         echo "<tr>";
-                            echo "<td>" . $beli[$i]['id'] . "</td>";
-                            echo "<td>" . $beli[$i]['nama'] . "</td>";
-                            echo "<td>" . $beli[$i]['jumlah'] . "</td>";
-                            echo "<td>" . $beli[$i]['harga'] . "</td>";
+                            echo "<td>" . $cetak[0] . "</td>";
+                            echo "<td>" . $cetak[1] . "</td>";
+                            echo "<td>" . $cetak[2] . "</td>";
+                            echo "<td>" . $cetak[3] . "</td>";
                         echo "</tr>";
                     }
                     ?>

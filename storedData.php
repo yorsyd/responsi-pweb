@@ -1,6 +1,5 @@
 <?php
 include 'db.php';
-include 'beli.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = intval($_POST["id-product"]);
@@ -13,23 +12,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $input_jumlah = $jumlah;
         }   
     }
-
-    $i = count($beli);
     
-    $addProduct = array(
-        $beli[$i]['nama'] = $input_name,
-        $beli[$i]['id'] = $input_id,
-        $beli[$i]['harga'] = $input_harga,
-        $beli[$i]['jumlah'] = $input_jumlah
-    );
-
-    // Sebelum
-    // echo "<pre>";
-    // print_r($gudang);
-    // echo "</pre>";
-
     header("Location: index.php");
-
-    file_put_contents('beli.php', '<?php $beli = ' . var_export($beli, true) . ';');
+    
+    $fp = fopen("db.txt", "a+");
+    fputs($fp, "$input_id | $input_name | $input_harga | $input_jumlah\n");
+    fclose($fp);
 }
 ?>
