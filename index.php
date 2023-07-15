@@ -112,8 +112,8 @@
     </div>
     <div class="card">
         <h3>Kontak</h3>
-        <a href="https://github.com/yorsyd">GitHub</a>
-        <a href="https://instagram.com/yorsyd">Instagram</a>
+        <a href="https://github.com/yorsyd" target="_blank">GitHub</a>
+        <a href="https://instagram.com/yorsyd" target="_blank">Instagram</a>
     </div>
   </div>
 </div>
