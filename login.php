@@ -1,6 +1,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="styleLogin.css">
+        <title>Verifikasi</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.ico">
     </head>
     <body>
         <div class="login-page">
