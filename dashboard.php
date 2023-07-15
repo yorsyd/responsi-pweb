@@ -15,11 +15,11 @@
 <body>
     <div class="header">
         <h1>IniElektronik</h1>
-        <p>Menyediakan Berbagai Macam Alat yang Bisa Membuat Anda Tersetrum</p>
+        <!-- <p>Menyediakan Berbagai Macam Alat yang Bisa Membuat Anda Tersetrum</p> -->
     </div>
 
     <div class="topnav">
-        <a href="index.php" style="float:right">Halaman Utama</a>
+        <a href="index.php" style="float:right">Log Out</a>
     </div>
 
     <div class="row">
@@ -60,10 +60,10 @@
         <div class="rightcolumn">
             <div class="card">
                 <h2>Tentang Kami</h2>
-                <p>Toko <b>IniElektronik</b> menyediakan berbagai macam barang elektronik kebutuhan Anda</p>
+                <p>Toko <b>IniElektronik</b> menyediakan berbagai macam barang elektronik yang bisa membuat Anda kesetrum</p>
             </div>
             <div class="card">
-                <h3>Media Sosial</h3>
+                <h3>Kontak</h3>
                 <a href="https://github.com/yorsyd">GitHub</a>
                 <a href="https://instagram.com/yorsyd">Instagram</a>
             </div>

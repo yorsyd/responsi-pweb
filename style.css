@@ -1,7 +1,7 @@
 :root {
   --primary: #35A29F;
   --second: #171717;
-  --bg: #dedede;
+  --bg: #dadada;
 }
 
 * {
@@ -15,11 +15,11 @@ body {
   background: var(--bg);
 }
 
-/* Header/Blog Title */
+/* Header/Judul */
 .header {
-  padding: 30px;
+  padding: 10px;
   text-align: center;
-  background: var(--second);
+  background: white;
 }
 
 .header h1 {
@@ -32,14 +32,14 @@ body {
   color: white;
 }
 
-/* Style the top navigation bar */
+/* Style untuk navigation bar */
 .topnav {
   padding: 14px 16px;
   overflow: hidden;
   background-color: var(--primary);
 }
 
-/* Style the topnav links */
+/* Style untuk link di topnav */
 .topnav a {
   text-transform: capitalize;
   float: left;
@@ -49,19 +49,19 @@ body {
   text-decoration: none;
 }
 
-/* Change color on hover */
+/* ganti warna ketika diarahin kesana */
 .topnav a:hover {
   color: var(--second);
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
+/* Buat dua kolom yang mengapung di samping satu sama lain */
+/* Kolom kiri */
 .leftcolumn {
   float: left;
   width: 75%;
 }
 
-/* Right column */
+/* Kolom kanan */
 .rightcolumn {
   background-color: var(--second);
   color: var(--second);
@@ -71,6 +71,7 @@ body {
   padding-left: 20px;
 }
 
+/* kotak buat nampilin produk */
 .display {
   background-color: var(--second);
   color: var(--second);
@@ -96,11 +97,6 @@ body {
   color: var(--primary);
 }
 
-.ilang td {
-  border-style: none;
-  border-collapse: collapse;
-}
-
 /* Fake image */
 .fakeimg {
   width: 100%;
@@ -112,14 +108,14 @@ img{
   max-width: 160px;
 }
 
-/* Add a card effect for articles */
+/* Efek kartu untuk tampilan */
 .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
 
-/* Clear floats after the columns */
+/* Menghilangkan efek setelah kolom */
 .row::after {
   content: "";
   display: table;

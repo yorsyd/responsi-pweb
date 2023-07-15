@@ -14,11 +14,11 @@
 
 <div class="header">
   <h1>IniElektronik</h1>
-  <p>Menyediakan Berbagai Macam Alat yang Bisa Membuat Anda Tersetrum</p>
+  <!-- <p>Menyediakan Berbagai Macam Alat yang Bisa Membuat Anda Tersetrum</p> -->
 </div>
 
 <div class="topnav">
-  <a href="dashboard.php" style="float:right">Dashboard</a>
+  <a href="login.php" style="float:right">Admin</a>
 </div>
 
 <div class="row">
@@ -99,21 +99,19 @@
   <div class="rightcolumn">
     <div class="card">
       <h2>Tentang Kami</h2>
-      <p>Toko <b>IniElektronik</b> menyediakan berbagai macam barang elektronik kebutuhan Anda</p>
+      <p>Toko <b>IniElektronik</b> menyediakan berbagai macam barang elektronik yang bisa membuat Anda kesetrum</p>
     </div>
     <div class="card">
         <h2>Beli Barang</h2>
-            <div class="ilang">
-                <form action="storedData.php" method="post">
-                    <input type="number" name="id-product" placeholder="ID Barang" style="width: 100%">
-                    <input type="number" name="stock-product" placeholder="Jumlah Beli" style="margin-top:7px; width: 100%">
-                    <br><br>
-                    <input type="submit" value="Beli" style="color: #fff; background-color: #35A29F; width:20%" onclick="popup()">
-                </form>
-            </div>
+        <form action="storedData.php" method="post">
+            <input type="number" name="id-product" placeholder="ID Barang" style="width: 100%">
+            <input type="number" name="stock-product" placeholder="Jumlah Beli" style="margin-top:7px; width: 100%">
+            <br><br>
+            <input type="submit" value="Beli" style="color: #fff; background-color: #35A29F; width:20%" onclick="popup()">
+        </form>        
     </div>
     <div class="card">
-        <h3>Media Sosial</h3>
+        <h3>Kontak</h3>
         <a href="https://github.com/yorsyd">GitHub</a>
         <a href="https://instagram.com/yorsyd">Instagram</a>
     </div>

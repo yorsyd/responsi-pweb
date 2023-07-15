@@ -1,3 +1,4 @@
 6 | Setrika Dingin | 69999 | 4
 7 | Lampu Redup | 24999 | 2
 1 | Kipas Angin | 78999 | 9
+4 | Colokan Super | 8999 | 3
