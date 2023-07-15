@@ -11,7 +11,7 @@
                     <input type="text" required placeholder="Username" id="user" name="user">
                     <input type="password" required placeholder="Password" id="pw" name="pw">
                     <button type="submit" name="cek">Verifikasi</button> <br><br>
-                    <p style="text-align:center;">Kembali ke <a href="index.php">Halaman Utama</a></p>
+                    <p style="text-align:center;">Kembali ke <a href="index.php" style="color: #35A29F;">Halaman Utama</a></p>
                 </form>
             </div>
         </div>
